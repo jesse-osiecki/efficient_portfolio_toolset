@@ -1,0 +1,8 @@
+numpy
+yfinance
+matplotlib
+pandas
+
+ipython
+p2j
+notebook
