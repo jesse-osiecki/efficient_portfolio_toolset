@@ -79,8 +79,7 @@ for single_portfolio in range(num_portfolios):
 # a dictionary for Returns and Risk values of each portfolio
 portfolio = {'Returns': port_returns,
              'Volatility': port_volatility,
-             'Sharpe Ratio': sharpe_ratio,
-             'Weights': stock_weights}
+             'Sharpe Ratio': sharpe_ratio}
 
 # extend original dictionary to accomodate each ticker and weight in the portfolio
 for counter,symbol in enumerate(cov_annual.columns):
