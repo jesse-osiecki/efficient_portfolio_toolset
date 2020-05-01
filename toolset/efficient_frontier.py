@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 np.random.seed(101) # remove for more true randomness
 num_portfolios = 500000
-date_start = '2018-01-01'
+date_start = '2016-01-01'
 selected = [
     "AMZN", # Amazon
     "XLNX", # Xilinx
